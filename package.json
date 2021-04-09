@@ -1,21 +1,34 @@
 {
-  "name" : "treehugger",
-  "version" : "0.0.3",
-  "description" : "treehugger is a Javascript library for program processing",
+  "name": "@pylonide/treehugger",
+  "version": "0.1.0",
+  "description": "treehugger is a Javascript library for program processing",
   "author": "ajax.org B.V. <info@ajax.org>",
   "license": "MIT",
   "contributors": [
-    { "name": "Zef Hemel", "email": "zef@c9.io" },
-    { "name": "Lennart Kats", "email": "lennart@c9.io" },
-    { "name": "Harutyun Amirjanyan", "email": "harutyun@c9.io" },
-    "Sten Feldman <exile@chamber.ee> (http://sten.feldman.eesti.ee/)"
+    {
+      "name": "Zef Hemel",
+      "email": "zef@c9.io"
+    },
+    {
+      "name": "Lennart Kats",
+      "email": "lennart@c9.io"
+    },
+    {
+      "name": "Harutyun Amirjanyan",
+      "email": "harutyun@c9.io"
+    },
+    "Sten Feldman <exile@chamber.ee> (https://sten.pw/)"
   ],
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/exsilium/treehugger.git" 
-  },  
-  "engines" : {
-    "node" : ">= 4.8.5"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/pylonide/treehugger.git"
+  },
+  "engines": {
+    "node": ">= 12.22.1"
+  },
+  "devDependencies": {
+    "amd-loader": "~0.0.8",
+    "asyncjs": "~0.0.13"
   },
   "scripts": {
     "test": "node lib/treehugger/js/parse_test.js",
