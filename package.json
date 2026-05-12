@@ -1,6 +1,6 @@
 {
   "name": "@pylonide/treehugger",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "treehugger is a Javascript library for program processing",
   "author": "Sten Feldman <exile@chamber.ee>",
   "license": "MIT",
@@ -25,7 +25,7 @@
     "url": "http://github.com/pylonide/treehugger.git"
   },
   "engines": {
-    "node": ">= 20.19.0"
+    "node": ">= 22.22.2"
   },
   "devDependencies": {
     "amd-loader": "~0.0.8",
